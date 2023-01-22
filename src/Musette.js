@@ -1,3 +1,5 @@
+import SectionA1RH from "./Musette/SectionA1RH";
+
 function Musette() {
     return (
       <div>
@@ -21,7 +23,8 @@ function Musette() {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wTiI71clTD4?start=811" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h3>Whole Song</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wTiI71clTD4?start=928" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+        <h2>Guided Practice</h2>
+         <SectionA1RH />
       </div>
     );
   }
