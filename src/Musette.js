@@ -30,7 +30,7 @@ function Musette() {
         <h3>Section A, phrase 2, right hand</h3>
         <audio src="assets/audio/Musette-RH-1b.mp3" controls>Your browser does not support HTML5 audio.</audio>
         <h3>Section A, phrases 1 and 2, left hand</h3>
-        <audio src="assets/audio/Musette-LH-A.mp3" controls>Your browser does not support HTML5 audio.</audio>
+        <audio src="assets/audio/Musette-LHA.mp3" controls>Your browser does not support HTML5 audio.</audio>
         <h3>Section A, phrase 1, both hands</h3>
         <audio src="assets/audio/Musette-A1.mp3" controls>Your browser does not support HTML5 audio.</audio>
         <h3>Section A, phrase 2, both hands</h3>
