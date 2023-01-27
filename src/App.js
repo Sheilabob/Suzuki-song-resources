@@ -12,20 +12,21 @@ function App() {
   return (
     <div className="App">
     <Router>
-      <div>
+      <div class="pages">
         <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
+          <ul class="menu">
+            <li class="menu-item">
+              <Link to="/"><h1>Home</h1></Link>
             </li>
-            <li>
-              <Link to="/musette">Musette</Link>
+            <li class="menu-item">
+              <Link to="/musette"><h1>Musette</h1></Link>
             </li>
           </ul>
         </nav>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
+            <div class="pages">
         <Routes>
           <Route path="/musette" element={ <Musette />}>
            
@@ -34,6 +35,7 @@ function App() {
             
           </Route>
         </Routes>
+        </div>
       </div>
     </Router>
     </div>

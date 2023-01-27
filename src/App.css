@@ -2,37 +2,50 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Position must be set to relative to accomodate the pseudo-element. */
+.menu {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  margin-top: 0px;
+  width: auto;
+  position: relative;
+  z-index: 100;
 }
 
-.App-link {
-  color: #61dafb;
+/* Use of this pseudo-element allows for opacity setting of the linear-gradient . . . watch the z-index to make sure links are still available*/
+.menu:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-image: linear-gradient(to bottom right, blue, aqua);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-item {
+  margin: 50px;
+  padding: 10px;
+  width: 50%;
+  list-style-type: none;
+  border: 2px solid darkblue;
+  border-radius: 30px;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+  color: darkviolet;
+}
+
+.pages {
+  background-color: lightblue;
+  z-index: 0;
 }
