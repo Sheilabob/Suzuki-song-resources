@@ -60,6 +60,11 @@ function Musette() {
         <h3>Whole Song</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wTiI71clTD4?start=928" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
+        <section>
+    <h2>Falling Bars Video (full level video, set to start on Musette)</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_1Rb5z0WT0g?start=815" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+        
       </div>
     );
   }
