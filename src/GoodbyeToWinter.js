@@ -30,6 +30,11 @@ function GoodbyeToWinter() {
     <h2>Falling Bars Video (full level video, set to start on Goodbye to Winter)</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_1Rb5z0WT0g?start=629" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </section>
+<section>
+          <h2>Link to Turk Piano Studios: video shows RH, then LH, then HT</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ahGX4U02fXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+
         {/* <section>
         <h2>Tutorial Videos</h2>
         <p>How it works: these videos are all the same video, just bookmarked to different sections.  Watch the full video or use one of the others to skip to the section you need.</p>

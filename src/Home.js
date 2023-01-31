@@ -1,11 +1,20 @@
 function Home() {
     return (
       <div>
+        <section>
         <h1>Suzuki Song Resource Site</h1>
         <h2>Spotify Playlist, Level 1</h2>
         <p>Please note: this is a "preview" list and will only play parts of the songs here.  Please follow the link to spotify to listen to the songs in full. (You will need to sign up for a free account.)</p>
         <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/2pqP4buMoIHBqmWemvOcBz?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+</section>
+<section>
+    <h2>Falling Bars Video (full level video, songs are in order, bookmarks in description, Note: the Twinkle Variations are not included)</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_1Rb5z0WT0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+<section>
+          <h2>Link to Turk Piano Studios: full playlist for level 1, songs are in order</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLU13ELqa_CK9uvoLTyx0EQY-RbzS0xLd9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
         <h2>Words for selected songs</h2>
         <h3>Honeybee</h3>
         <p>Honeybee, don't you dare sting me. <br />
