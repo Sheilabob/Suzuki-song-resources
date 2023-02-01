@@ -49,3 +49,47 @@ a {
   background-color: lightblue;
   z-index: 0;
 }
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid blue;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-content {
+  max-height: 10000px;
+  transition: max-height 1s ease-in-out;
+  overflow: hidden;
+}
+
+.accordion-content[aria-expanded="true"] {
+  max-height: 0px;
+  transition: max-height 1s cubic-bezier(0, 1, 0, 1);
+}
+
+.plus {
+  font-size: 38px;
+}
+
+.plus[aria-expanded="true"] {
+  display: none;
+}
+
+.minus {
+  display: none;
+}
+
+.minus[aria-expanded="false"] {
+  display: inline;
+  font-size: 38px;
+
+}
