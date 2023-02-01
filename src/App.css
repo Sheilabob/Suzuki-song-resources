@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+h2 {
+  color: darkblue;
+}
+
 
 /* Position must be set to relative to accomodate the pseudo-element. */
 .menu {
@@ -55,7 +59,7 @@ a {
   flex-direction: column;
   width: 90%;
   margin: auto;
-  padding: 10px;
+  padding: 0 30px;
   border-radius: 20px;
   border: 2px solid blue;
 }
@@ -63,6 +67,7 @@ a {
 .accordion-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .accordion-content {
@@ -78,6 +83,7 @@ a {
 
 .plus {
   font-size: 38px;
+  color: darkblue;
 }
 
 .plus[aria-expanded="true"] {
@@ -86,6 +92,7 @@ a {
 
 .minus {
   display: none;
+  color: darkblue;
 }
 
 .minus[aria-expanded="false"] {
