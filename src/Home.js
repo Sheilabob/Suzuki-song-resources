@@ -37,6 +37,12 @@ function Home() {
           <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLU13ELqa_CK9uvoLTyx0EQY-RbzS0xLd9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </section>
+        <section className="accordion">
+        <div className="accordion-header">
+          <h2>Lyrics, Level 1</h2>
+          <h1 className="plus" aria-expanded={expand3} onClick={handleClick3}>+</h1>
+            <h1 className="minus" aria-expanded={!expand3} onClick={handleClick3}>-</h1></div>
+            <div className="accordion-content" aria-expanded={!expand3}>
         <h2>Words for selected songs</h2>
         <h3>Honeybee</h3>
         <p>Honeybee, don't you dare sting me. <br />
@@ -64,7 +70,8 @@ function Home() {
         French children play and greet the happy morning. <br />
         French children play and greet the happy day. 
         </p>
-
+        </div>
+</section>
       </div>
     );
   }
