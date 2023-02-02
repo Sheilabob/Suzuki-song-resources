@@ -23,14 +23,14 @@ function App() {
             <img class="pianologo" src={"pianoclipart.png"} alt={"Image of Piano"} />
               <Link to="/"><h1>Home</h1></Link>
             </div>
-            <div class="song-list">
+            {/* <div class="song-list"> */}
             <div class="menu-item">
               <Link to="/goodbyetowinter"><h1>Goodbye To Winter</h1></Link>
             </div>
             <div class="menu-item">
               <Link to="/musette"><h1>Musette</h1></Link>
             </div>
-            </div>
+            {/* </div> */}
 
           </div>
         </nav>

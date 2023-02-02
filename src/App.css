@@ -6,6 +6,10 @@ h2 {
   color: darkblue;
 }
 
+link {
+  z-index: 100;
+}
+
 .pianologo {
   width: 200px;
   height: 200px;
