@@ -4,9 +4,13 @@ function Musette() {
 
   const [expand, setExpand] = useState(false)
   const [expand2, setExpand2] = useState(false)
+  const [expand3, setExpand3] = useState(false)
+
 
   const handleClick = () => setExpand(!expand)
   const handleClick2 = () => setExpand2(!expand2)
+  const handleClick3 = () => setExpand3(!expand3)
+
 
     return (
       <div>
@@ -82,13 +86,19 @@ function Musette() {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wTiI71clTD4?start=928" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </section>
-        <section>
+        <section className="accordion">
+        <div className="accordion-header">
+          <h2>YouTube Resources</h2>
+          <h1 className="plus" aria-expanded={expand3} onClick={handleClick3}>+</h1>
+            <h1 className="minus" aria-expanded={!expand3} onClick={handleClick3}>-</h1>
+          </div>
+          <div className="accordion-content" aria-expanded={!expand3}>
     <h2>Falling Bars Video (full level video, set to start on Musette)</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_1Rb5z0WT0g?start=815" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</section>
-        <section>
+
           <h2>Link to Turk Piano Studios: video shows RH, then LH, then HT</h2>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/AGfZHa4wFN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </section>
       </div>
     );
