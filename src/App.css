@@ -6,6 +6,11 @@ h2 {
   color: darkblue;
 }
 
+.pianologo {
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
 
 /* Position must be set to relative to accomodate the pseudo-element. */
 .menu {
