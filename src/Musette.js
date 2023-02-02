@@ -3,8 +3,10 @@ import { useState } from "react";
 function Musette() {
 
   const [expand, setExpand] = useState(false)
+  const [expand2, setExpand2] = useState(false)
 
   const handleClick = () => setExpand(!expand)
+  const handleClick2 = () => setExpand2(!expand2)
 
     return (
       <div>
@@ -51,8 +53,14 @@ function Musette() {
             <audio src="assets/audio/Musette-B.mp3" controls>Your browser does not support HTML5 audio.</audio>
           </div>
         </section>
-        <section>
-        <h2>Tutorial Videos</h2>
+        <section className="accordion">
+        
+        <div className="accordion-header">
+          <h2>Tutorial Videos</h2>
+          <h1 className="plus" aria-expanded={expand2} onClick={handleClick2}>+</h1>
+            <h1 className="minus" aria-expanded={!expand2} onClick={handleClick2}>-</h1>
+          </div>
+          <div className="accordion-content" aria-expanded={!expand2}>
         <p>How it works: these videos are all the same video, just bookmarked to different sections.  Watch the full video or use one of the others to skip to the section you need.</p>
         <h3>Full Video</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wTiI71clTD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -72,6 +80,7 @@ function Musette() {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wTiI71clTD4?start=811" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h3>Whole Song</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wTiI71clTD4?start=928" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         </section>
         <section>
     <h2>Falling Bars Video (full level video, set to start on Musette)</h2>
