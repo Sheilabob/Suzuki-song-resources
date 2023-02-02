@@ -1,9 +1,26 @@
+import { useState } from "react"
+
 function GoodbyeToWinter() {
+    const [expand, setExpand] = useState(false)
+    const [expand2, setExpand2] = useState(false)
+    const [expand3, setExpand3] = useState(false)
+  
+  
+    const handleClick = () => setExpand(!expand)
+    const handleClick2 = () => setExpand2(!expand2)
+    const handleClick3 = () => setExpand3(!expand3)
+
     return (
       <div>
         <h1>Goodbye To Winter Resources</h1>
-        <section> <h2>Guided Practice</h2>
-        <p>How it works:  select the section you are practicing, get set and press play.  The section will play through 6 times in a row with a count between each time.  The first time is a "demo," a chance for you to listen and get ready, then try to play along with the rest.  IF YOU NEED, you can slow the playback down (just don't forget to speed it back up again later).  You'll know you've mastered it when you can easily play along with all five of the repeats following the demo.</p>
+        <section className="accordion"> 
+        <div className="accordion-header">
+            <h2>Guided Practice</h2>
+            <h1 className="plus" aria-expanded={expand} onClick={handleClick}>+</h1>
+            <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1>
+          </div>
+          <div className="accordion-content" aria-expanded={!expand}>
+                  <p>How it works:  select the section you are practicing, get set and press play.  The section will play through 6 times in a row with a count between each time.  The first time is a "demo," a chance for you to listen and get ready, then try to play along with the rest.  IF YOU NEED, you can slow the playback down (just don't forget to speed it back up again later).  You'll know you've mastered it when you can easily play along with all five of the repeats following the demo.</p>
         <h3>Section A, right hand</h3>
         <audio src="assets/audio/GTW-rh-a.mp3" controls>Your browser does not support HTML5 audio.</audio>
         <h3>Section B, right hand</h3>
@@ -15,6 +32,7 @@ function GoodbyeToWinter() {
         <h3>Whole song, right hand</h3>
         <audio src="assets/audio/GTW-rh-all.mp3" controls>Your browser does not support HTML5 audio.</audio>
 
+
         <h3>Section A, both hands</h3>
         <audio src="assets/audio/GTW-ht-a.mp3" controls>Your browser does not support HTML5 audio.</audio>
         <h3>Section B, both hands</h3>
@@ -25,6 +43,8 @@ function GoodbyeToWinter() {
         <audio src="assets/audio/GTW-ht-coda.mp3" controls>Your browser does not support HTML5 audio.</audio>
         <h3>Whole song, both hands</h3>
         <audio src="assets/audio/GTW-ht-all.mp3" controls>Your browser does not support HTML5 audio.</audio>
+        </div>
+
 </section>
 <section>
     <h2>Falling Bars Video (full level video, set to start on Goodbye to Winter)</h2>
