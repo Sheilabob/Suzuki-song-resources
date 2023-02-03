@@ -17,18 +17,22 @@ function App() {
       <div class="pages">
       
         <nav>
-          <div class="menu">
+          <div class="menu row">
           
-            <div class="menu-item">
+            <div class="menu-item column home">
             <img class="pianologo" src={"pianoclipart.png"} alt={"Image of Piano"} />
               <Link to="/"><h1>Home</h1></Link>
             </div>
             {/* <div class="song-list"> */}
-            <div class="menu-item">
+            <div class="menu-item column songs">
+              <div class="song gtw">
               <Link to="/goodbyetowinter"><h1>Goodbye To Winter</h1></Link>
-            </div>
-            <div class="menu-item">
+              </div>
+              <div class="song musette">
+            {/* </div>
+            <div class="menu-item"> */}
               <Link to="/musette"><h1>Musette</h1></Link>
+              </div>
             </div>
             {/* </div> */}
 

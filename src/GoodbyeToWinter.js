@@ -12,7 +12,7 @@ function GoodbyeToWinter() {
 
     return (
       <div>
-        <h1>Goodbye To Winter Resources</h1>
+        <h1 class="gtw">Goodbye To Winter Resources</h1>
         <section className="accordion"> 
         <div className="accordion-header">
             <h2>Guided Practice</h2>

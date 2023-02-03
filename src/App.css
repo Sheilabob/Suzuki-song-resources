@@ -40,7 +40,7 @@ link {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-  z-index: 1;
+  z-index: 100;
 }
 
 .menu-item {
@@ -48,9 +48,27 @@ link {
   padding: 10px;
   width: 50%;
   list-style-type: none;
-  border: 2px solid darkblue;
-  border-radius: 30px;
+  border: 4px blue double;
   z-index: 100;
+}
+
+.column.home {
+  border-radius: 500px;
+  flex: 0 0 280px;
+}
+
+.song {
+  border: 4px blue double;
+}
+.gtw h1, h1.gtw {
+  color: darkgreen;
+}
+h1.musette, .musette h1  {
+  color: blue;
+}
+
+.song:hover {
+  border: 6px purple double;
 }
 
 a {
@@ -69,8 +87,7 @@ a {
   width: 90%;
   margin: auto;
   padding: 0 30px;
-  border-radius: 20px;
-  border: 2px solid blue;
+  border: 4px blue double;
 }
 
 .accordion-header {

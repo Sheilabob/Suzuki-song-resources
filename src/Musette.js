@@ -14,7 +14,7 @@ function Musette() {
 
     return (
       <div>
-        <h1>Musette Resources</h1>
+        <h1 class="musette">Musette Resources</h1>
         <section className="accordion"> 
           <div className="accordion-header">
             <h2>Guided Practice</h2>
