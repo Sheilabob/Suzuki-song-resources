@@ -44,32 +44,63 @@ function Home() {
             <h1 className="minus" aria-expanded={!expand3} onClick={handleClick3}>-</h1></div>
             <div className="accordion-content" aria-expanded={!expand3}>
         <h2>Words for selected songs</h2>
+        <div class="lyricandplayer">
+          <div class="lyrics">
         <h3>Honeybee</h3>
         <p>Honeybee, don't you dare sting me. <br />
           Don't sting Mommy, don't sting Daddy, <br />
-          Don't sting Mommy, don't sting Daddy, <br />
+          Don't sting Brother, don't sting Sister, <br />
           Honeybee, don't you dare sting me. 
         </p>
-        <h3>Cuckoo</h3>
-        <p> Cuckoo, Cuckoo, sings in the forest. <br />
+        </div>
+        <div class="player">
+        <audio src="assets/audio/Honeybee.mp3" controls>Your browser does not support HTML5 audio.</audio>
+        </div>
+        </div>
+        <div class="lyricandplayer">
+          <div class="lyrics">
+          <h3>Cuckoo</h3>
+          <p> Cuckoo, Cuckoo, sings in the forest. <br />
         Cuckoo, Cuckoo, sings in the woods. <br />
         Let us be singing, let us be dancing. <br />
         Cuckoo, Cuckoo, bedtime is here.
         </p>
-        <h3>Lightly Row</h3>
-        <p> Lightly row, lightly row, gently down the stream we go. <br />
+        </div>
+        <div class="player">
+        <audio src="assets/audio/Cuckoo.mp3" controls>Your browser does not support HTML5 audio.</audio>
+        </div>
+        </div>
+        <div class="lyricandplayer">
+          <div class="lyrics">
+          <h3>Lightly Row</h3>
+          <p> Lightly row, lightly row, gently down the stream we go. <br />
         Smoothly gliding, smoothly gliding, on the silent tide we row. <br />
         Let the wind and water be, mingled with our melody. <br />
         Smoothly gliding, smoothly gliding, on the silent tide we row.
         </p>
-        <h3>French Children's Song</h3>
-        <p>French children play and greet the happy morning. <br />
+        </div>
+        <div class="player">
+        <audio src="assets/audio/LightlyRow.mp3" controls>Your browser does not support HTML5 audio.</audio>
+        </div>
+        </div>
+        <div class="lyricandplayer">
+          <div class="lyrics">
+          <h3>French Children's Song</h3>
+          <p>French children play and greet the happy morning. <br />
         French children play and greet the happy day. <br />
         French children sing happily in the garden. <br />
         French children sing happily in the yard.  <br />
         French children play and greet the happy morning. <br />
         French children play and greet the happy day. 
         </p>
+        </div>
+        <div class="player">
+        <audio src="assets/audio/FrenchChildren.mp3" controls>Your browser does not support HTML5 audio.</audio>
+        </div>
+        </div>
+        
+
+
         </div>
 </section>
       </div>

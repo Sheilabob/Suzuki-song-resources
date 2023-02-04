@@ -136,3 +136,10 @@ a {
   font-size: 38px;
 
 }
+
+.lyricandplayer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 6px #37997f ridge;
+}
