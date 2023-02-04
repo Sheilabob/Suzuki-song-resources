@@ -57,14 +57,24 @@ link {
   flex: 0 0 280px;
 }
 
+.home h1 {
+  color: black;
+}
+
 .song {
   border: 4px blue double;
 }
 .gtw h1, h1.gtw {
   color: darkgreen;
 }
-h1.musette, .musette h1  {
+
+.all2 h1, h1.all2 {
   color: blue;
+}
+
+
+h1.musette, .musette h1  {
+  color: purple;
 }
 
 .song:hover {

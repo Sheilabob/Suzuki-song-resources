@@ -8,6 +8,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Allegretto2 from './Allegretto2';
 
 function App() {
   return (
@@ -28,11 +29,19 @@ function App() {
               <div class="song gtw">
               <Link to="/goodbyetowinter"><h1>Goodbye To Winter</h1></Link>
               </div>
+              <div class="song all2">
+            {/* </div>
+            <div class="menu-item"> */}
+              <Link to="/allegretto2"><h1>Allegretto 2</h1></Link>
+              </div>
+
               <div class="song musette">
             {/* </div>
             <div class="menu-item"> */}
               <Link to="/musette"><h1>Musette</h1></Link>
               </div>
+
+
             </div>
             {/* </div> */}
 
@@ -44,6 +53,8 @@ function App() {
             <div class="pages">
         <Routes>
           <Route path="/goodbyetowinter" element={ <GoodbyeToWinter />}>
+          </Route>
+          <Route path="/allegretto2" element={ <Allegretto2 />}>
           </Route>
 
 
