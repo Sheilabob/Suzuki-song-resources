@@ -63,6 +63,7 @@ link {
 
 .song {
   border: 4px blue double;
+  margin: 5px;
 }
 .gtw h1, h1.gtw {
   color: darkgreen;
