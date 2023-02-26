@@ -144,3 +144,9 @@ a {
   align-items: center;
   border: 6px #37997f ridge;
 }
+
+@media screen and (max-width: 670px) {
+  .menu, .lyricandplayer {
+    flex-wrap: wrap;
+  }
+}
