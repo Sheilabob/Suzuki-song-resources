@@ -98,6 +98,19 @@ function Home() {
         <audio src="assets/audio/FrenchChildren.mp3" controls>Your browser does not support HTML5 audio.</audio>
         </div>
         </div>
+        <div class="lyricandplayer">
+          <div class="lyrics">
+          <h3>Au Clair de la Lune (English variation)</h3>
+          <p>Underneath the moonlight, my friend Pierrot.<br />
+        Please lend me a pencil, to write a word.<br />
+        My candle is out now, I have no more light.<br />
+        Underneath the moonlight, my friend Pierrot.
+        </p>
+        </div>
+        <div class="player">
+        <audio src="assets/audio/Au-Clair.mp3" controls>Your browser does not support HTML5 audio.</audio>
+        </div>
+        </div>
         
 
 
