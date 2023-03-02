@@ -24,6 +24,7 @@ link {
   width: auto;
   position: relative;
   z-index: 100;
+  justify-content: center;
 }
 
 /* Use of this pseudo-element allows for opacity setting of the linear-gradient . . . watch the z-index to make sure links are still available*/
