@@ -89,7 +89,7 @@ a {
 }
 
 .pages {
-  background-color: lightblue;
+  background-color: rgb(205, 233, 242);
   z-index: 0;
 }
 
@@ -97,9 +97,11 @@ a {
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin: auto;
+  margin: 20px auto;
   padding: 0 30px;
-  border: 4px blue double;
+  border: 1px darkblue solid;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px mediumblue;
 }
 
 .accordion-header {
@@ -143,7 +145,10 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 6px #37997f ridge;
+  border: 1px #37997f solid;
+  margin: 10px auto;
+  box-shadow: 3px 3px 3px #37997f;
+  width: 95%;
 }
 
 @media screen and (max-width: 670px) {
