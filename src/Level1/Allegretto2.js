@@ -38,31 +38,30 @@ function Allegretto2() {
             source="assets/audio/Allegretto-2-phrase-1.mp3"
             heading="Section A, phrase 1"
           />
-          <h3>Section A, phrase 2</h3>
-          <audio src="assets/audio/Allegretto-2-phrase-2.mp3" controls>
-            Your browser does not support HTML5 audio.
-          </audio>
-          <h3>Section A: phrases 1 and 2</h3>
-          <audio src="assets/audio/Allegretto-2-1st-half.mp3" controls>
-            Your browser does not support HTML5 audio.
-          </audio>
-          <h3>Section B, phrase 3</h3>
-          <audio src="assets/audio/Allegretto-2-phrase-3.mp3" controls>
-            Your browser does not support HTML5 audio.
-          </audio>
-          <h3>Section B, phrase 4</h3>
-          <audio src="assets/audio/Allegretto-2-phrase-4.mp3" controls>
-            Your browser does not support HTML5 audio.
-          </audio>
-
-          <h3>Section B: phrases 3 and 4</h3>
-          <audio src="assets/audio/Allegretto-2-2nd-half.mp3" controls>
-            Your browser does not support HTML5 audio.
-          </audio>
-          <h3>Full Song</h3>
-          <audio src="assets/audio/Allegretto-2-whole-song.mp3" controls>
-            Your browser does not support HTML5 audio.
-          </audio>
+          <GuidedPracticeAudio
+            source="assets/audio/Allegretto-2-phrase-2.mp3"
+            heading="Section A, phrase 2"
+          />
+          <GuidedPracticeAudio
+            source="assets/audio/Allegretto-2-1st-half.mp3"
+            heading="Section A: phrases 1 and 2"
+          />
+          <GuidedPracticeAudio
+            source="assets/audio/Allegretto-2-phrase-3.mp3"
+            heading="Section B, phrase 3"
+          />
+          <GuidedPracticeAudio
+            source="assets/audio/Allegretto-2-phrase-4.mp3"
+            heading="Section B, phrase 4"
+          />
+          <GuidedPracticeAudio
+            source="assets/audio/Allegretto-2-2nd-half.mp3"
+            heading="Section B: phrases 3 and 4"
+          />
+          <GuidedPracticeAudio
+            source="assets/audio/Allegretto-2-whole-song.mp3"
+            heading="Full Song"
+          />
         </div>
       </section>
       <section className="accordion">
