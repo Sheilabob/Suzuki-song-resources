@@ -46,11 +46,15 @@ link {
 
 .menu-item {
   margin: 50px;
-  padding: 10px;
   width: 50%;
   list-style-type: none;
   border: 4px blue double;
   z-index: 100;
+}
+
+.menu-item.songs {
+  display: flex;
+  flex-direction: column;
 }
 
 .column.home {
@@ -64,7 +68,7 @@ link {
 
 .song {
   border: 4px blue double;
-  margin: 5px;
+  flex-grow: 1;
 }
 .gtw h1, h1.gtw {
   color: darkgreen;
