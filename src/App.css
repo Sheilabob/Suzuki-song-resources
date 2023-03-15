@@ -52,6 +52,10 @@ link {
   z-index: 100;
 }
 
+.home.menu-item:hover {
+  border: 4px purple double;
+}
+
 .menu-item.songs {
   display: flex;
   flex-direction: column;
@@ -84,7 +88,7 @@ h1.musette, .musette h1  {
 }
 
 .song:hover {
-  border: 6px purple double;
+  border: 4px purple double;
 }
 
 a {
