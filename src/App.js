@@ -11,7 +11,17 @@ function App() {
       <Router>
         <div class="pages">
           <nav>
-            <div class="menu row">
+            <div class="menu mobile">
+              <Link to="/">
+                <img
+                  class="pianologo"
+                  src={"pianoclipart.png"}
+                  alt={"Image of Piano"}
+                />
+              </Link>
+              <button class="menu-three-line">☰</button>
+            </div>
+            <div class="menu row desktop">
               <div class="menu-item column home">
                 <img
                   class="pianologo"
