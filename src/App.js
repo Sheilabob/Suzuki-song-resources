@@ -20,6 +20,14 @@ function App() {
                 />
               </Link>
               <button class="menu-three-line">☰</button>
+              <div class="dropdown">
+                <ul>
+                  <li>Home</li>
+                  <li>Goodbye to Winter</li>
+                  <li>Allegretto 2</li>
+                  <li>Musette</li>
+                </ul>
+              </div>
             </div>
             <div class="menu row desktop">
               <div class="menu-item column home">
