@@ -4,8 +4,15 @@ import Musette from "./Musette";
 import GoodbyeToWinter from "./Level1/GoodbyeToWinter";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Allegretto2 from "./Level1/Allegretto2";
+import { useState } from "react";
 
 function App() {
+  const [drop, setDrop] = useState(false);
+
+  const handleClick = () => {
+    console.log("clicked");
+    setDrop(!drop);
+  };
   return (
     <div className="App">
       <Router>
@@ -19,15 +26,19 @@ function App() {
                   alt={"Image of Piano"}
                 />
               </Link>
-              <button class="menu-three-line">☰</button>
-              <div class="dropdown">
-                <ul>
-                  <li>Home</li>
-                  <li>Goodbye to Winter</li>
-                  <li>Allegretto 2</li>
-                  <li>Musette</li>
-                </ul>
-              </div>
+              <button class="menu-three-line" onClick={handleClick}>
+                ☰
+              </button>
+              {drop && (
+                <div class="dropdown">
+                  <ul>
+                    <li>Home</li>
+                    <li>Goodbye to Winter</li>
+                    <li>Allegretto 2</li>
+                    <li>Musette</li>
+                  </ul>
+                </div>
+              )}
             </div>
             <div class="menu row desktop">
               <div class="menu-item column home">

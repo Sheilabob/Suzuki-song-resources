@@ -164,13 +164,16 @@ a {
 }
 
 .dropdown {
+  display: inline-block;
   position: absolute;
   top: 100%;
   left: 0;
   width: 300px;
   z-index: 2;
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+  border: 1px solid purple;
+  box-shadow: 0 16px 24px 2px purple;
+  background: blue;
+  border-radius: 2px;
 }
 
 ul {
@@ -215,6 +218,7 @@ li:hover {
     font-size: 40px;
     background-color: transparent;
     color: darkblue;
+    z-index: 999;
   }
   .menu, .mobile {
     justify-content: flex-start;
