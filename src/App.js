@@ -32,10 +32,18 @@ function App() {
               {drop && (
                 <div class="dropdown">
                   <ul>
-                    <li>Home</li>
-                    <li>Goodbye to Winter</li>
-                    <li>Allegretto 2</li>
-                    <li>Musette</li>
+                    <li>
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/goodbyetowinter">Goodbye to Winter</Link>
+                    </li>
+                    <li>
+                      <Link to="/allegretto2">Allegretto 2</Link>
+                    </li>
+                    <li>
+                      <Link to="/musette">Musette</Link>
+                    </li>
                   </ul>
                 </div>
               )}
